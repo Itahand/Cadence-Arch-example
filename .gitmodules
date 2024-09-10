@@ -1,0 +1,3 @@
+[submodule "cadence_arch/lib/forge-std"]
+	path = cadence_arch/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
