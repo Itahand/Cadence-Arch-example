@@ -1,0 +1,121 @@
+{
+	"dependencies": {
+		"Burner": {
+			"source": "testnet://b6763b4399a888c8.Burner",
+			"hash": "9f84f00c8d2afd70916514e56f9459ef7f426b70a7440dd1b64f2723ff779ce7",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "e467b9dd11fa00df",
+				"testnet": "8c5303eaa26202d6"
+			}
+		},
+		"EVM": {
+			"source": "testnet://b6763b4399a888c8.EVM",
+			"hash": "b6aeb5e8048311345103d522c38df4eb9ae70d5d6ddb4f92832ff9a5eca42e35",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "e467b9dd11fa00df",
+				"testnet": "8c5303eaa26202d6"
+			}
+		},
+		"FlowToken": {
+			"source": "testnet://4445e7ad11568276.FlowToken",
+			"hash": "633b6a3cd0a3d68cb665478b297f9f3e37cc9c6c8829a4fda5b22ed7cb908a44",
+			"aliases": {
+				"emulator": "0ae53cb6e3f42a79",
+				"mainnet": "1654653399040a61",
+				"testnet": "7e60df042a9c0868"
+			}
+		},
+		"FungibleToken": {
+			"source": "testnet://a0225e7000ac82a9.FungibleToken",
+			"hash": "3cad0cb7d88b8af34ab82a1580c6d70906649f7e974c12958a55c822d4f1e808",
+			"aliases": {
+				"emulator": "ee82856bf20e2aa6",
+				"mainnet": "f233dcee88fe0abe",
+				"testnet": "9a0766d93b6608b7"
+			}
+		},
+		"FungibleTokenMetadataViews": {
+			"source": "testnet://a0225e7000ac82a9.FungibleTokenMetadataViews",
+			"hash": "2206d6ac3d18e2a26ed8e610cb28d1e054423b20a8bdc2ac6a10bffc7e579a9c",
+			"aliases": {
+				"emulator": "ee82856bf20e2aa6",
+				"mainnet": "f233dcee88fe0abe",
+				"testnet": "9a0766d93b6608b7"
+			}
+		},
+		"MetadataViews": {
+			"source": "testnet://b6763b4399a888c8.MetadataViews",
+			"hash": "a49bab604f143ced27662b28d16887707ed7a4e60e626eb1e742ea93bf0bffb0",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "1d7e57aa55817448",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		},
+		"NonFungibleToken": {
+			"source": "testnet://b6763b4399a888c8.NonFungibleToken",
+			"hash": "ebf4d24a324803365c238d95c621ee472f36acc1ed4158ff5d255e8fb865e3cc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "1d7e57aa55817448",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		},
+		"RandomBeaconHistory": {
+			"source": "testnet://b6763b4399a888c8.RandomBeaconHistory",
+			"hash": "9536f036aed0afbd5c84b4ce4a1def7466bff989bcb07c7be9918028b46f05db",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "e467b9dd11fa00df",
+				"testnet": "8c5303eaa26202d6"
+			}
+		},
+		"ViewResolver": {
+			"source": "testnet://b6763b4399a888c8.ViewResolver",
+			"hash": "eaa3214b0e178c5692cfc243a14c739150d5d57ef3f9204a252d70667a67db76",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "1d7e57aa55817448",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		}
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "dc0097a6b58533e56af78c955e7b0c0f386b5f44f22b75c390beab7fcb1af13f"
+		},
+		"emulator-alice": {
+			"address": "01cf0e2f2f715450",
+			"key": "1a05ba433be5af2988e814d1e4fa08f1574140e6cb5649a861cc6377718c51be"
+		},
+		"emulator-bob": {
+			"address": "179b6b1cb6755e31",
+			"key": "1a05ba433be5af2988e814d1e4fa08f1574140e6cb5649a861cc6377718c51be"
+		},
+		"testnet-random": {
+			"address": "0ad337a396743390",
+			"key": {
+				"type": "file",
+				"location": "random.pkey"
+			}
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"emulator-account": [],
+			"emulator-alice": [],
+			"emulator-bob": []
+		},
+		"testnet": {
+			"testnet-random": []
+		}
+	}
+}

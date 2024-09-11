@@ -2,7 +2,7 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-contract CadenceRandomConsumer {
+contract CadenceArchCaller {
     // Declare Cadence Arch's address as a const
     address constant public cadenceArch = 0x0000000000000000000000010000000000000001;
     
